@@ -12,7 +12,7 @@ class TradingBotGUI:
     def __init__(self, root, bot_core):
         self.root = root
         self.bot = bot_core
-        self.root.title("Trading Bot Simulador")
+        self.root.title("Simulador de bot comercial")
         self.root.geometry("1000x700")
         
         # Variables de control
